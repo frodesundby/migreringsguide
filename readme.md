@@ -16,7 +16,7 @@
   * Disse punktene må endres
   * bla
   * bla
-1. Følgende [risikovurderinger](https://apps.powerapps.com/play/f8517640-ea01-46e2-9c09-be6b05013566) er gjennomført for nais i GCP:
+2. Følgende [risikovurderinger](https://apps.powerapps.com/play/f8517640-ea01-46e2-9c09-be6b05013566) er gjennomført for nais i GCP:
   * GCP Lagring av data(Buckets og postgres)
   * GCP Tilgangskontrolloppsett
   * Tilgang til Kafka fra GCP
