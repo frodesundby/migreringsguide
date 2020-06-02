@@ -25,19 +25,6 @@ I tillegg til å åpne opp for kommunikasjon til og fra andre applikasjoner i sa
 Man kan bruke samme [deploymekanismer](https://doc.nais.io/deployment) som vanlig, men erstatter `CLUSTER` med hhv `labs-gcp`,`dev-gcp` eller `prod-gcp`
 
 ### Ingress
-For å nå applikasjonen via ingress, er følgende domener tilgjengelige:
-
-#### Labs-gcp
-* labs.nais.io - tilgjengelig fra internett.
-
-#### Dev-gcp
-* dev-adeo.no - tilgjengelig kun fra nav-interne nett, scaleft og naisdevice
-* dev-nav.no - tilgjengelig kun fra nav-interne nett, scaleft og naisdevice
-* dev-gcp.nais.io - tilgjengelig kun fra nav-interne nett, scaleft og naisdevice
-
-#### Prod-gcp
-* adeo.no - tilgjengelig kun fra nav-interne nett, scaleft og naisdevice. Hostnavnet må legges inn i DNS for adeo.no og pekes på den interne lastbalansereren: 10.7.8.100
-* nav.no - tilgjengelig fra internett. Hostnavnet må legges inn i DNS for nav.no og peke på Googles lastbalanserer: 35.244.216.34
-* prod-gcp.nais.io - tilgjengelig fra internett.
-
+I GCP kan har man flere ulike domener tilgjengelige for å eksponerer applikasjonen sin for ulike publikum.
+En oversikt over tilgjengelige domener og hvem som får tilgang finne [her](https://doc.nais.io/clusters)
 
