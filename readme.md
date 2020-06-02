@@ -5,7 +5,7 @@
 Her må noen fylle inn mer informasjon om hva man skal gjøre og hvem man kan snakke med.
 
 ## Tekniske forutsetninger
-###Teamet må legges til i https://github.com/navikt/teams
+### Teamet må legges til i https://github.com/navikt/teams
 * Det opprettes en gruppe i Azure AD. Kan verifiseres [her](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ManagedAppMenuBlade/Users/appId/5cbaf0ba-4d99-48a1-acf5-cca701361fd2/objectId/4c5e3226-106e-404d-81be-d02f31104b5a)
 * Det opprettes et team i github. Kan verifiseres [her](https://github.com/orgs/navikt/teams)
 * Deploy-nøkler for teamet opprettes og hentes [her](https://deploy.nais.io/)
