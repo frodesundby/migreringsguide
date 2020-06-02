@@ -26,5 +26,5 @@ Man kan bruke samme [deploymekanismer](https://doc.nais.io/deployment) som vanli
 
 ### Ingress
 I GCP kan har man flere ulike domener tilgjengelige for å eksponerer applikasjonen sin for ulike publikum.
-En oversikt over tilgjengelige domener og hvem som får tilgang finne [her](https://doc.nais.io/clusters)
+En oversikt over tilgjengelige domener og hvem som får tilgang finnes [her](https://doc.nais.io/clusters)
 
