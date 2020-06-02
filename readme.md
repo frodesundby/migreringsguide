@@ -4,8 +4,8 @@
 * Automatisk provisjonering av database og bucket ved behov.
 * Eget namespace for teamet med alle rettigheter.
 * Egne team-prosjekter i GCP.
-* Ingen sonemodell
 * Bedre sikkerhet i form av Istio og Network Policies
+* Ingen sonemodell. (Slipper api-gw eller tilsvarende mellom apper, uavhengig av hvilken sone appene kjørte i før)
 * Sporbarhet og synlighet for alle kall.
 * Kostnadsbesparende i forhold til on-prem
 * Fremtidsrettet. On-prem skal fases ut.
