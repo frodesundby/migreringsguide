@@ -1,8 +1,26 @@
 # GCP Migreringsguide
 
+## Hvorfor migrere
+* Automatisk provisjonering av database og bucket ved behov.
+* Eget namespace for teamet med alle rettigheter.
+* Egne team-prosjekter i GCP.
+* Ingen sonemodell
+* Bedre sikkerhet i form av Istio og Network Policies
+* Sporbarhet og synlighet for alle kall.
+* Kostnadsbesparende i forhold til on-prem
+* Fremtidsrettet. On-prem skal fases ut.
+* Audun blir veldig glad.
+
 ## Administrativt
-1. Alle applikasjoner i NAV skal ha en PVK. 
-Her må noen fylle inn mer informasjon om hva man skal gjøre og hvem man kan snakke med.
+1. Teamet må oppdatere sin PVK for å reflektere at appen skal kjøre i allmen sky.
+  * Disse punktene må endres
+  * bla
+  * bla
+1. Følgende [risikovurderinger](https://apps.powerapps.com/play/f8517640-ea01-46e2-9c09-be6b05013566) er gjennomført for nais i GCP:
+  * GCP Lagring av data(Buckets og postgres)
+  * GCP Tilgangskontrolloppsett
+  * Tilgang til Kafka fra GCP
+  * Google Compute Platform - GCP, og Google Kubenetes Engine - GKE
 
 ## Tekniske forutsetninger
 ### Teamet må legges til i https://github.com/navikt/teams
