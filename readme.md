@@ -16,7 +16,8 @@ Følg instruksjonene [her](https://doc.nais.io/basics/access) for å installere 
 
 ### Sikkerhet
 I GCP-clusterne våre er det lagt opp til zero-trust, som betyr at applikasjonen må uttrykke hvilke apper den skal snakke med, og hvilke apper som skal snakke med den.
-Dette må applikasjonen utrykke i form av en [AccessPolicy](https://doc.nais.io/gcp/access-policy)
+Dette må applikasjonen utrykke i form av en [AccessPolicy](https://doc.nais.io/gcp/access-policy).
+
 I tillegg til å åpne opp for kommunikasjon til og fra andre applikasjoner i samme cluster, åpner dette for kommunikasjon med applikasjoner i andre cluster med access-tokens utstedt av `tokendings`.
 (Dette forutsetter at applikasjonen du skal konsumere har implementert validering av tokendings-tokens.)
 
